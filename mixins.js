@@ -22,7 +22,7 @@ userProfile = {
 // update some profile properties and returns information about which properties
 // were changed, and to what values.(for now, just hard code the return value)
 
-getProfileUpdate: function(userProfile) {
+getProfileUpdate function(userProfile) {
     this.name = 'Shane';
     this.address = '123 Main';
     this.city = 'Charlotte';
@@ -34,17 +34,8 @@ getProfileUpdate: function(userProfile) {
 // Write a function updateProfile() that takes a single object of keys:values
 // and overwrites those keys on the profile object
 
-updateProfile(){};
+var updateProfile = new userProfile(){};
 
-
-// var updateProfile = Object.assign({}, userProfile, {
-//     name: 'Jimmy',
-//     addressstring: '300 Hawthorne Lane',
-// 		city: 'Charlotte',
-// 		state: 'NC',
-// 		zipcode: '28204',
-// 		avatar: 'http://placehold.it/200x200',
-// });
 
 
 
