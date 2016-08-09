@@ -1,14 +1,14 @@
 
 User.prototype = {
 	name: '',
-	addressstring: '',
+	address: '',
 	city: '',
 	state: '',
 	zipcode: '',
 	avatar: '',
 	getProfileUpdate: function(n, a, c, s, z, p) {
 		this.name = n;
-		this.addressstring = a;
+		this.address = a;
 		this.city = c;
 		this.state = s;
 		this.zipcode = z;
