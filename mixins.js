@@ -1,3 +1,13 @@
+// function Employee (name, profession) {
+// ​this.name = name;
+// ​this.profession = profession;
+// } // Employee () is the constructor function because we use the <em>new</em> keyword below to invoke it.​
+// ​
+// ​var richard = new Employee (“Richard”, “Developer”)
+// ​
+// console.log(richard.name);
+// console.log(richard.profession);
+
 
 // Create a user profile object that contains properties for
 // name
@@ -36,7 +46,8 @@ getProfileUpdate function(userProfile) {
 
 var updateProfile = new userProfile(){};
 
-
+// Get a profile update and update the profile with it.
+// ??????????
 
 
 
